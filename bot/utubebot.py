@@ -1,7 +1,7 @@
 from pyrogram import Client
 
 from .config import Config
-
+from bot import SESSION_NAME, BOT_TOKEN, API_ID, API_HASH
 
 class UtubeBot(Client):
     def __init__(self):
